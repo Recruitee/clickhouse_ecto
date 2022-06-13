@@ -25,7 +25,7 @@ defmodule ClickhouseEcto.Mixfile do
   defp deps do
     [
       {:ecto_sql, "~> 3.0"},
-      {:clickhousex, git: "https://github.com/plausible/clickhousex"},
+      {:clickhousex, git: "https://github.com/Recruitee/clickhousex", ref: "6107f9f"},
       {:ex_doc, "~> 0.19", only: :dev}
     ]
   end
